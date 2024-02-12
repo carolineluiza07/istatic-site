@@ -1,0 +1,79 @@
+ h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 254, 255);
+ }
+ h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(255, 255, 255)
+ }
+
+ h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ #Igor-profile {
+
+    width: center;
+    margin-top: 0;
+    margin-left: auto;
+    margin-bottom: 0;
+    margin-right: auto;
+   
+
+ }
+
+ p:hover {
+   font-size: 28px;
+ }
+
+ #Objetivo-da-mentoria {
+
+    font-family: 'Montserrat';
+    border:2px solid #eaeaeaea;
+    border-radius: 25px;
+    padding: 20px;
+
+ }
+ 
+ #ImageHeader {
+   /* Background pattern from Toptal Subtle Patterns */
+   background-image: url("/img/bg_top.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   height: 250px;
+   width: 100%;
+}
+
+body {
+background-image: url('IMG/global.avif');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+div.blocos:nth-child(2n+2) {
+   background-color: #000;
+ }
+ div.blocos:hover div.o{
+   transform: scale(1.8);
+   -webkit-transform: scale(1.5);
+   -moz-transform: scale(1.5);
+   -o-transform: scale(1.5);
+   z-index: 2;
+   background-color: rgba(0,0,0,0.7);
+ }
+
+div.content {
+   position: relative;
+   padding: 20px;
+   width: 880px;
+ }
+ .span {
+   width: 100px;
+   height: 100px;
+   padding: 5px;
+   display:inline-block;
+   border: 1px solid black;
+   cursor: pointer;
+   position: relative;
+ }
